@@ -1,0 +1,2 @@
+# Potential Buffer Overflow in Assembly Code
+This repository demonstrates a potential buffer overflow vulnerability in a small snippet of x86 assembly code. The code attempts to add a value to a memory location but lacks sufficient bounds checking, which can lead to unexpected behavior or program crashes if the memory location is not large enough. The solution illustrates how to mitigate this vulnerability by adding appropriate boundary checks before writing to memory. 
